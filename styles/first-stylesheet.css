@@ -5,23 +5,28 @@ body {
   font-family: sans-serif;
   color: black;
 }
-ul > li {
-  list-style-type: none;
-  margin: 0;
+
+nav > ul > li {
   padding: 0;
-  overflow:hidden;
-  background-color: #333;
+  list-style-type: none;
+  float: left;
 }
-ul > li {
-    float: left;
-}
-nav > ul > li > a {
+nav > ul > li > a {   
     display: inline;
+    margin: 0;
     color: black;
     text-align:center;
+    overflow: hidden;
     padding: 14px 16px;
     text-decoration: none;
     background-color: #dddddd;
+    border-right: 1px solid #bbb;
+}
+a[href="/Users/Scot/Desktop/Foundations/portfolio/about-me.html"] {
+  border-right: none;
+}
+nav > ul > li > a:hover {
+    background-color:antiquewhite;
 }
 h1 {
     color: navy;
