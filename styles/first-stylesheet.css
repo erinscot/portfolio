@@ -23,8 +23,18 @@ img {
     display: block;
     margin: auto;
     width: 50%;
+    border:1px solid;
+    border-color: cadetblue;
+    padding: 1px;
 }
 figcaption {
     padding-top: 5px;
     text-align:center;
+}
+ul  {
+    border: 1px solid black;
+    margin:-left: 30px;
+    list-style-position: inside;
+    list-style-type: lower-alpha;
+    padding: 6px;
 }
