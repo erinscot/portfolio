@@ -53,13 +53,14 @@ a:visited {
   font-family: 'Amatic SC', cursive;
 }
 
-li a:hover {
-  color: blue;
-}
-
 #home {
   color: blue;
 }
+
+li a:hover {
+  color: white;
+}
+
 
 #biopic {
   clear: both;

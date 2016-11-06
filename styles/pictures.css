@@ -55,12 +55,12 @@ a:visited {
   font-family: 'Amatic SC', cursive;
 }
 
-li a:hover {
+#pics {
   color: blue;
 }
 
-#pics {
-  color: blue;
+li a:hover {
+  color: white;
 }
 
 #biopic {
