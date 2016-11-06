@@ -200,6 +200,10 @@ li:last-child {
   font-family: 'Amatic SC', cursive;
 }
 
+i:hover {
+  color: white;
+}
+
 footer {
   display: block;
   padding-top: 8rem;
