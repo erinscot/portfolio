@@ -2,11 +2,6 @@ body {
     background-color:#bcd6d6;
 }
 
-* {
-  font-family: 'Open Sans', sans-serif;
-  color: black;
-}
-
 h1, h2, h3, h4, h5, h6 { /*reset for mobile browsers */
 font-weight: normal;
 }
@@ -73,7 +68,7 @@ main {
   margin-left: auto;
   margin-right: auto;
   padding: 1rem;
-  width: 70%;
+  width: 90%;
 }
 
 .my-work {
