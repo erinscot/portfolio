@@ -90,73 +90,49 @@ main {
   font-family: 'Amatic SC', cursive;
 }
 
-#erin-photo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .work-description {
   display: block;
   text-align:justify;
   line-height: 1.5rem;
-  padding-bottom: 6rem;
+  padding-bottom: 3rem;
   border-bottom: 1px dashed darkgray;
 }
 
 .proof {
   font-size: 4rem;
   text-align: center;
-  padding-top: 1rem;
+  padding-top: 0rem;
   margin-bottom: .25rem;
   font-family: 'Amatic SC', cursive;
 }
 
-.what-i-do-now-text {
-  display: block;
-  text-align:justify;
-  line-height: 1.5rem;
-}
-
-.what-i-do-now-text-2 {
-  display: block;
-  text-align:justify;
-  line-height: 1.5rem;
-}
-
-#dynatrace-logo {
+#scatterplot {
   display: block;
   margin-left: auto;
   margin-right: auto;
   padding-top: 1rem;
-  padding-right: 1rem;
-  float:left; 
-}
-
-#waterfall {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   width: 90%;
   max-width: 100%;
   height: auto;
-  padding-bottom: 6rem;
+}
+
+.scatterplot-caption {
+  padding-bottom: 3rem;
   border-bottom: 1px dashed darkgray;
 }
 
-.what-i-want-to-do {
-  font-size: 4rem;
-  text-align: center;
-  padding-top: 1rem;
-  margin-bottom: .25rem;
-  font-family: 'Amatic SC', cursive;
+#email {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-width: 100%;
+  height: auto;
+  padding-top: 3rem;
 }
 
-.what-i-want-to-do-text {
-  display: block;
-  text-align:justify;
-  line-height: 1.5rem;
-  padding-bottom: 6rem;
+.email-caption {
+  padding-bottom: 3rem;
   border-bottom: 1px dashed darkgray;
 }
 
