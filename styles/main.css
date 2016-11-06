@@ -11,22 +11,20 @@ h1, h2, h3, h4, h5, h6 { /*reset for mobile browsers */
 font-weight: normal;
 }
 
-nav {
+/*nav {
   display: block;
   max-width: 100%;
   height: auto;
-}
+}*/
 
 .top-menu {
   display: inline;
-  list-style-type: none;
-  padding: 4px 15px;
-  overflow: hidden;
 }
 
 .top-menu > li {
   display: inline;
   text-decoration: none;
+  list-style-type: none;
   float: left;
   max-width: 100%;
   height: auto;
@@ -56,6 +54,10 @@ a:visited {
 }
 
 li a:hover {
+  color: blue;
+}
+
+#home {
   color: blue;
 }
 

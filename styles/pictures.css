@@ -11,11 +11,11 @@ h1, h2, h3, h4, h5, h6 { /*reset for mobile browsers */
 font-weight: normal;
 }
 
-nav {
+/*nav {
   display: block;
   max-width: 100%;
   height: auto;
-}
+}*/
 
 .top-menu {
   display: inline;
@@ -56,6 +56,10 @@ a:visited {
 }
 
 li a:hover {
+  color: blue;
+}
+
+#pics {
   color: blue;
 }
 
