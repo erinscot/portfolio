@@ -1,9 +1,210 @@
-
-  body {
+body {
     background-color:#bcd6d6;
 }
+
 * {
   font-family: 'Open Sans', sans-serif;
   color: black;
 }
 
+nav {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.top-menu {
+  display: inline;
+  list-style-type: none;
+  padding: 4px 15px;
+  overflow: hidden;
+}
+
+.top-menu > li {
+  display: inline;
+  text-decoration: none;
+  float: left;
+  max-width: 100%;
+  height: auto;
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+#home, #work, #pics {
+  display: block;
+  font-size: 3rem;
+  padding: 14px 16px;
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+}
+
+li a:hover {
+  color: blue;
+}
+
+#biopic {
+  clear: both;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 0rem;
+  padding-bottom: 1rem;
+}
+
+main {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  width: 70%;
+}
+
+.my-name {
+  font-size: 5rem;
+  text-align: center;
+  padding: 0rem;
+  max-width: 100%;
+  height: auto;
+  font-family: 'Amatic SC', cursive;
+  padding-bottom: 2rem;
+  border-bottom: 1px dashed darkgray;
+}
+
+.who-i-am {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: .25rem;
+  font-family: 'Amatic SC', cursive;
+}
+
+#erin-photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.who-i-am-text {
+  display: block;
+  text-align:justify;
+  line-height: 1.5rem;
+  padding-bottom: 6rem;
+  border-bottom: 1px dashed darkgray;
+}
+
+.what-i-do {
+  font-size: 4rem;
+  text-align: center;
+  padding-top: 1rem;
+  margin-bottom: .25rem;
+  font-family: 'Amatic SC', cursive;
+}
+
+.what-i-do-now-text {
+  display: block;
+  text-align:justify;
+  line-height: 1.5rem;
+}
+
+.what-i-do-now-text-2 {
+  display: block;
+  text-align:justify;
+  line-height: 1.5rem;
+}
+
+#dynatrace-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  float:left; 
+}
+
+#waterfall {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 6rem;
+  border-bottom: 1px dashed darkgray;
+}
+
+.what-i-want-to-do {
+  font-size: 4rem;
+  text-align: center;
+  padding-top: 1rem;
+  margin-bottom: .25rem;
+  font-family: 'Amatic SC', cursive;
+}
+
+.what-i-want-to-do-text {
+  display: block;
+  text-align:justify;
+  line-height: 1.5rem;
+  padding-bottom: 6rem;
+  border-bottom: 1px dashed darkgray;
+}
+
+.find-me-title {
+  font-size: 3rem;
+  padding-top:1rem;
+  margin-bottom: 0rem;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+}
+
+.find-me-list {
+  display: inline;
+  list-style-type: none;
+}
+
+.find-me > li {
+  display: inline;
+  text-decoration: none;
+  float: left;
+  max-width: 100%;
+  height: auto;
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+#twitter, #linked, #blog {
+  display: block;
+  font-size: 3rem;
+  padding: 0rem;
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+}
+
+footer {
+  display: block;
+  padding-top: 8rem;
+  font-size: 1rem;
+  width: 100%;
+  text-align: center;
+}
+
+.email {
+  display: inline;
+  font-size: 1rem;
+}

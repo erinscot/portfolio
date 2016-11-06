@@ -4,75 +4,52 @@
     <meta charset="utf-8">
     <title>Erin Scot</title>
     <script src="https://use.fontawesome.com/e3c29d22b8.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"><link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
  </head>
   <body>
-    <!--<header>
-      <nav>
-        <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="www.fakelink.com/home">Work</a></li>
-        <li><a href="www.fakelink.com/ref">References</a></li>
-        <li><a href="about-me.html">About Me</a></li>
-        </ul>    
-      </nav>   
-    </header><br>
-    <article>
-      <h2>The Basics</h2>
-      <p>For the last two years, I have lived and breathed web performance analysis. I started off not knowing a single thing about how a web page loads, and now I spend my days advising companies on how best to improve their sites to get the most out of them.</p>
-      <p>A lot of people don't like to listen to my company's advice, which is bad because it gets annoying to repeat one's self. But it's also good because it means as long as developers insist on putting JS into 20 different files on a page, I will always have a job. Someone has to tell them, "Quit doing that. It slows things down. Combine wherever you can."</p>
-      <figure>
-        <img src="http://www.webperformancetoday.com/wp-content/uploads/2010/07/waterfall-breakdown.jpg" alt ="waterfall">
-        <figcaption>I look at this sort of thing every single day.</figcaption>
-      </figure>
-    </article>
-    <br>
-    <h2>Advantages of Listening to Me</h2>
-      <ol>
-        <li>Combining JS (and CSS), along with moving third-party calls that are not necessary for render to further down the page, speeds up the page load time</li>
-        <li>Faster page loads = more revenue (studies <a href="https://blog.kissmetrics.com/loading-time/">show</a> that speeding up a page by one second can lead to <strong>millions</strong> in extra revenue)</li>
-      </ol>
-    <br>
-  <footer>
-    <nav>
-        <a href="www.fakelink.com/home">Work</a>
-        <a href="www.fakelink.com/ref">References</a>
-        <a href="about-me.html">About Me</a>
-    </nav>
-    </footer>--> 
     <header>
       <nav>
-        <img id="biopic" src="pictureofme" alt="photo of the author">
-        <ul>
-        <li><a id="home" class="menu-item" href="index.html">Home</a></li>
-        <li><a id="about" class="menu-item" href="www.fakelink.com/home">About</a></li>
-        <li><a id="work" class="menu-item" href="www.fakelink.com/ref">Work</a></li>
+        <ul class="top-menu">
+          <li><a id="home" class="menu-item" href="index.html">Home</a></li>
+          <li><a id="work" class="menu-item" href="work.html">Work</a></li>
+          <li><a id="pics" class="menu-item" href="pictures.html">Pictures</a></li>
         </ul>
       </nav>
+      <img id="biopic" src="images/background.jpeg" alt="photo of the author" width="1200">
     </header>
-    <article>
-      <h2>Erin Scot</h2>
-      <section class="who-i-am">
-       <h3>Who I Am</h3>
-        <img alt="photo of the author" id"erin-photo" src="photo-of-me" >
-        <p>A little more than two years ago, I decided to get into the technology realm. I had spent the previous decade working in various capacities in Hollywood. After eight years in L.A. I had moved to the Pacific Northwest, where I made my living transcribing interviews for mind-numbing reality television shows. That was, surprisingly, not very fulfilling. I was 34 and thought it might be too late to start a new career, but I went back to school to get a second bachelor's degree, this time in computer information technology. In the meantime, I took classes and applied for jobs in the industry.</p>
+    <main>
+      <h2 class="my-name">Hello, I'm Erin Scot</h2>
+        <!--<img alt="photo of the author" id="erin-photo" src="images/headshot.png" height="125px">-->
+      <section>
+        <h3 class="who-i-am">Me</h3>
+        <p class="who-i-am-text">I like screens. I use them all day, for work, personal endeavors (like mostly-defunct blogs), and baseball. I went to film school at NYU. I worked in "show business" for eight years, including gigs on various movies and a season at <em>The Ellen DeGeneres Show</em>. I have a wife and a seven-year-old son. Two years ago I switched gears and went back to school to work on a second bachelor's degree, this time in computer science.</p>
       </section>
-      <section class="what-i-do">
-        <img alt="dynatrace logo" id="dynatrace-logo" src="dynatracephoto" >
-        <h3>What I Do Now</h3>
-          <p>Without knowing a thing about web performance, I applied to a job as "consulting support" in web performance analysis. Luckily, I have a way with words, and my cover letter and subsequent interviews got me in the door. Long story short, I still haven't finished that second degree, but I've spent the last 26 months working in web performance for Dynatrace (formerly Keynote). So I look at waterfalls all day to understand how web page design affects performance.</p>
-        <img alt="waterfall" id="waterfall" src="waterfall">
-        <h3>What I Want to Do</h3>
-          <p>I'm moving up at Dynatrace, with a recent promotion to "Performance Guardian." That means the clients I've been supporting (a major domestic car company and an international cell phone carrier) are about to be disappointed to learn I'm moving on. I'll soon have my own (smaller) clients. But I'm learning how to develop websites myself because I enjoy this time of work. So eventually I'd like to be able to call myself a web designer/developer. My experience in knowing how to put together a website for maximum performance should come in handy as I learn... how to put together a website. In the meantime, monitoring and analyzing others' sites is what pays the bills.</p>
+      <section>
+        <h3 class="what-i-do">My Job</h3>
+          <img alt="dynatrace logo" id="dynatrace-logo" src="images/dynatrace-logo-33a874730e.svg" width="200">
+          <p class="what-i-do-now-text">Without knowing a thing about web performance, I applied to a job as "consulting support" in web performance analysis. Luckily, I have a way with words, and my cover letter and subsequent interviews got me in the door. Long story short, I still haven't finished that second degree, but I've spent the last 26 months working in web performance for Dynatrace (formerly Keynote). So I look at waterfalls all day to understand how web page design affects performance.</p>
+          <p class="what-i-do-now-text-2">Here's a hint from this anonymous site: don't have three CSS and nine JS files in your first dozen elements to load. Your page will be slower than necessary. Combine, combine, combine.</p>
+        <img alt="waterfall" id="waterfall" src="images/anonymous-waterfall.png" width="1200">
       </section>  
-    </article>
+      <section>
+        <h3 class="what-i-want-to-do">My Future</h3>
+          <p class="what-i-want-to-do-text">I'm moving up at Dynatrace, with a recent promotion to "Performance Guardian." That means the clients I've been supporting (a major domestic car company and an international cell phone carrier) are about to be disappointed to learn I'm moving on. I'll soon have my own (smaller) clients. But I'm learning how to develop websites myself because I enjoy this time of work. So eventually I'd like to be able to call myself a web designer/developer. My experience in knowing how to put together a website for maximum performance should come in handy as I learn... how to put together a website. In the meantime, monitoring and analyzing others' sites is what pays the bills.</p>
+      </section>  
+      <nav class ="find-me">
+        <h3 class="find-me-title">Find Me</h3>
+          <ul class="find-me-list">
+            <li id="twitter"><a href="https://twitter.com/proudagain"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li id="linked"><a href="https://www.linkedin.com/in/erinmscot"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            <li><a id="blog" href="http://www.funeralsfordinosaurs.com">Blog</a></li>
+          </ul>
+      </nav>
+    </main>
     <footer>
-    <p id="copyright">
-        © 2016 Erin Scot
-    </p>
-    <p id="email-contact">
-        erinmscot@gmail.com
-    </p>
+      <p>
+        © 2016 <a class="email" href="mailto:erinmscot@gmail.com?Subject=Your%20site" target="_top">Erin Scot</a>
+      </p>
     </footer>
   </body>
 </html>
