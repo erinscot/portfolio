@@ -96,6 +96,7 @@ main {
   padding-bottom: 3rem;
   border-bottom: 1px dashed darkgray;
   font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
 }
 
 .proof {
@@ -117,9 +118,11 @@ main {
 }
 
 .scatterplot-caption {
+  line-height: 1.5rem;
   padding-bottom: 3rem;
   border-bottom: 1px dashed darkgray;
   font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
 }
 
 #email {
@@ -133,9 +136,11 @@ main {
 }
 
 .email-caption {
+  line-height: 1.5rem;
   padding-bottom: 3rem;
   border-bottom: 1px dashed darkgray;
   font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
 }
 
 .find-me-title {
