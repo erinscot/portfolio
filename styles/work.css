@@ -135,6 +135,7 @@ main {
 .email-caption {
   padding-bottom: 3rem;
   border-bottom: 1px dashed darkgray;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .find-me-title {
