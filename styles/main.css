@@ -61,7 +61,6 @@ li a:hover {
   color: white;
 }
 
-
 #biopic {
   clear: both;
   display:block;
@@ -101,24 +100,18 @@ main {
   font-family: 'Amatic SC', cursive;
 }
 
-#erin-photo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .who-i-am-text {
   display: block;
   text-align:justify;
   line-height: 1.5rem;
-  padding-bottom: 6rem;
+  padding-bottom: 3rem;
   border-bottom: 1px dashed darkgray;
 }
 
 .what-i-do {
   font-size: 4rem;
   text-align: center;
-  padding-top: 1rem;
+  padding-top: 0rem;
   margin-bottom: .25rem;
   font-family: 'Amatic SC', cursive;
 }
@@ -151,14 +144,14 @@ main {
   width: 90%;
   max-width: 100%;
   height: auto;
-  padding-bottom: 6rem;
+  padding-bottom: 3rem;
   border-bottom: 1px dashed darkgray;
 }
 
 .what-i-want-to-do {
   font-size: 4rem;
   text-align: center;
-  padding-top: 1rem;
+  padding-top: 0rem;
   margin-bottom: .25rem;
   font-family: 'Amatic SC', cursive;
 }
@@ -167,7 +160,7 @@ main {
   display: block;
   text-align:justify;
   line-height: 1.5rem;
-  padding-bottom: 6rem;
+  padding-bottom: 3rem;
   border-bottom: 1px dashed darkgray;
 }
 
