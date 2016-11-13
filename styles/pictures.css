@@ -116,19 +116,8 @@ main {
   margin-right: auto;
   max-width: 40%;
   height: auto;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  border-bottom: 1px dashed darkgray;
-}
-
-#family-photo {
-    width: 1200px;
-    -webkit-transition: width 2s; /* Safari 3.1 to 6.0 */
-    transition: width 2s;
-}
-
-first: hover {
-    width: 300px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 #dodger-dog {
@@ -137,9 +126,8 @@ first: hover {
   margin-right: auto;
   max-width: 40%;
   height: auto;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  border-bottom: 1px dashed darkgray;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 #me-merritt {
@@ -148,9 +136,8 @@ first: hover {
   margin-right: auto;
   max-width: 40%;
   height: auto;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  border-bottom: 1px dashed darkgray;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 #goofy-sketch {
@@ -159,9 +146,16 @@ first: hover {
   margin-right: auto;
   max-width: 40%;
   height: auto;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  border-bottom: 1px dashed darkgray;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.photos:nth-of-type(odd) {
+  border: 5px solid #4c682e;
+}
+
+.photos:nth-of-type(even) {
+  border: 5px solid #1a58c5;
 }
 
 .what-i-want-to-do {
