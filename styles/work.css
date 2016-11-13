@@ -19,9 +19,6 @@ font-weight: normal;
 
 .top-menu {
   display: inline;
-  list-style-type: none;
-  padding: 4px 15px;
-  overflow: hidden;
 }
 
 .top-menu > li {
@@ -55,12 +52,19 @@ a:visited {
   font-family: 'Amatic SC', cursive;
 }
 
-#work {
-  color: blue;
-}
-
 li a:hover {
   color: white;
+}
+
+#work {
+  color: blue;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  transition:         transform 0.5s ease-in-out;
+}
+
+#work:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 
 #biopic {

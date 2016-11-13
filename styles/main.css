@@ -53,12 +53,19 @@ a:visited {
   font-family: 'Amatic SC', cursive;
 }
 
-#home {
-  color: blue;
-}
-
 li a:hover {
   color: white;
+}
+
+#home {
+  color: blue;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  transition:         transform 0.5s ease-in-out;
+}
+
+#home:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 
 #biopic {
@@ -220,4 +227,3 @@ footer {
   display: inline;
   font-size: 1rem;
 }
-

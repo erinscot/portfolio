@@ -19,9 +19,6 @@ font-weight: normal;
 
 .top-menu {
   display: inline;
-  list-style-type: none;
-  padding: 4px 15px;
-  overflow: hidden;
 }
 
 .top-menu > li {
@@ -56,11 +53,22 @@ a:visited {
 }
 
 #pics {
-  color: blue;
+ 
 }
 
 li a:hover {
   color: white;
+}
+
+#pics {
+  color: blue;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  transition:         transform 0.5s ease-in-out;
+}
+
+#pics:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 
 #biopic {
@@ -106,18 +114,28 @@ main {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 90%;
-  max-height: 70%;
+  max-width: 40%;
+  height: auto;
   padding-top: 3rem;
   padding-bottom: 3rem;
   border-bottom: 1px dashed darkgray;
+}
+
+#family-photo {
+    width: 1200px;
+    -webkit-transition: width 2s; /* Safari 3.1 to 6.0 */
+    transition: width 2s;
+}
+
+first: hover {
+    width: 300px;
 }
 
 #dodger-dog {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 90%;
+  max-width: 40%;
   height: auto;
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -128,7 +146,7 @@ main {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 90%;
+  max-width: 40%;
   height: auto;
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -139,7 +157,7 @@ main {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 90%;
+  max-width: 40%;
   height: auto;
   padding-top: 3rem;
   padding-bottom: 3rem;
