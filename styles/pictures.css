@@ -52,10 +52,6 @@ a:visited {
   font-family: 'Amatic SC', cursive;
 }
 
-#pics {
- 
-}
-
 li a:hover {
   color: white;
 }
@@ -148,10 +144,6 @@ main {
   height: auto;
   margin-top: 3rem;
   margin-bottom: 3rem;
-}
-
-.photos:nth-of-type(odd) {
-  border: 5px solid #4c682e;
 }
 
 .photos:nth-of-type(even) {
