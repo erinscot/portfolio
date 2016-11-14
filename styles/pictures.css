@@ -76,6 +76,7 @@ li a:hover {
   height: auto;
   margin-bottom: 0rem;
   padding-bottom: 1rem;
+  border: none;
 }
 
 main {
@@ -146,12 +147,12 @@ main {
   margin-bottom: 3rem;
 }
 
-.photos:nth-of-type(odd) {
-  border: 5px solid #4c682e;
+img:nth-child(2n+3) {
+  border: 5px solid #1f68ce;
 }
 
-.photos:nth-of-type(even) {
-  border: 5px solid #1a58c5;
+img:nth-child(2n+2) {
+  border: 5px solid #4c682e;
 }
 
 /*.what-i-want-to-do {
