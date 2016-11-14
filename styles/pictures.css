@@ -146,6 +146,16 @@ main {
   margin-bottom: 3rem;
 }
 
+figure {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.photos:nth-of-type(odd) {
+  border: 5px solid #4c682e;
+}
+
 .photos:nth-of-type(even) {
   border: 5px solid #1a58c5;
 }
