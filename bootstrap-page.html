@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Baseball</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <style>
+      img {max-width: 100%;
+          max-height: 367px;
+      }
+      .container > h1 {
+        color: #003366;
+        align-content: center;
+      }
+      .dropdown-header {
+        font-size: inherit;
+        padding-left: .25rem;
+      }
+      .jumbotron {
+        padding-bottom: 2rem;
+      }
+      p {
+        text-align: justify;
+        font-size: 2rem;
+      }
+      .first-paragraph {
+        padding-top: 5rem;
+      }
+       .second-paragraph {
+        padding-bottom: 3rem;
+      }
+      .teams {
+        padding-left: 2rem;
+      }
+      a.list-group-item {
+        color: #003366;
+        font-size: 1.5rem;
+      }
+      iframe {
+        padding-bottom: 3rem;`
+      }
+    </style>
+  </head>
+  <body>
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Baseball <small>But especially the Dodgers.</small></h1>
+        <div class="btn-group">
+          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home </button>
+        </div>
+        <div class="btn-group">
+          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> My Baseball Writing <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a href="www.robotstookmymedicine.com">The Blog</a></li>
+            <li role="separator" class="divider"></li>
+            <li class= "dropdown-header">Select Posts<li>
+            <li><a href="http://www.robotstookmymedicine.com/2008/09/history-of-violence.html">History of Violence</a></li>
+            <li><a href="http://www.robotstookmymedicine.com/2013/04/love-in-time-of-internet.html">Love in the Time of the Internet</a></li>
+          </ul>
+        </div>
+        <div class="btn-group">
+          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Stadiums I've Visited <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a href="http://losangeles.dodgers.mlb.com/la/ballpark/">Dodger Stadium (duh)</a></li>
+            <li><a href="http://losangeles.angels.mlb.com/ana/ballpark/">Angel Stadium (boo)</a></li>
+            <li><a href="http://arizona.diamondbacks.mlb.com/ari/ballpark/">Chase Field</a></li>
+            <li><a href="http://seattle.mariners.mlb.com/sea/ballpark/">Safeco Field</a></li>
+            <li><a href="http://chicago.whitesox.mlb.com/cws/ballpark/">Guaranteed Rate Field</a></li>
+            <li><a href="http://chicago.cubs.mlb.com/chc/ballpark/">Wrigley Field</a></li>
+            <li><a href="http://stlouis.cardinals.mlb.com/stl/ballpark/">Busch Stadium</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Shea_Stadium">Shea Stadium (R.I.P.)</a></li>
+          </ul>
+        </div>
+        <div class="btn-group">
+          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Teams I've Seen Play <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu">  
+            <li class="teams">Arizona Diamondbacks</li>
+            <li class="teams">Atlanta Braves</li>
+            <li class="teams">Baltimore Orioles</li>
+            <li class="teams">Boston Red Sox</li>
+            <li class="teams">Chicago Cubs</li>
+            <li class="teams">Chicago White Sox</li>
+            <li class="teams">Cincinnati Reds</li>
+            <li class="teams">Cleveland Indians</li>
+            <li class="teams">Colorado Rockies</li>
+            <li class="teams">Los Angeles Angels of Anaheim</li>
+            <li class="teams">Los Angeles Dodgers</li>
+            <li class="teams">Miami Marlins</li>
+            <li class="teams">New York Mets</li>
+            <li class="teams">New York Yankees</li>
+            <li class="teams">Philadelphia Phillies</li>
+            <li class="teams">Pittsburgh Pirates</li>
+            <li class="teams">St. Louis Cardinals</li>
+            <li class="teams">San Diego Padres</li>
+            <li class="teams">San Francisco Giants</li>
+            <li class="teams">Seattle Mariners</li>
+            <li class="teams">Washington Nationals</li>
+          </ul>
+        </div>
+        <div class="btn-group">
+          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Games I've Attended <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu">
+            <li class= "dropdown-header">Some Notable Ones<li>
+            <li><a href="http://www.baseball-reference.com/boxes/LAN/LAN200906060.shtml">June 6, 2009</a></li>
+            <li><a href="http://www.baseball-reference.com/boxes/LAN/LAN200910080.shtml">October 8, 2009</a></li>
+            <li><a href="http://www.baseball-reference.com/boxes/LAN/LAN200810040.shtml">October 4, 2008</a></li>
+          </ul>
+        </div>
+        <div class="btn-group">
+          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> People I Love <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a href="https://dodgers.mlblogs.com/in-a-career-so-improbable-the-impossible-has-happened-we-have-to-bid-vin-scully-farewell-c1b75d3d67ee#.n5aijmnzh">Vin Scully</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Jackie_Robinson">Jackie Robinson</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+ <div class="row">
+      <div class="col-md-4">
+        <img alt="Erin eats Dodger Dog" src="images/dodger-dog-2.jpg" >
+      </div>    
+      <div class="col-md-4">
+        <img alt ="Merritt and bobblehead" src="images/10659347_10100577232079578_9072568316994138936_n.jpg">
+      </div>
+      <div class="col-md-4">
+       <img alt ="Katie eats Dodger Dog" src="images/katie-dodger-dog.jpg">
+      </div>
+  </div> 
+      <p class="first-paragraph">I dread the six months a year when there isn't any baseball. My teams are the Dodgers and Red Sox, but as long as you promise not to tell the Red Sox, I'll admit that the Dodgers are really my true love.</p>
+      <p class="second-paragraph">Dodger Stadium isn't just about Dodger Dogs and bobbleheads. Though, admittedly, those are some fantastic selling points. Want to know more about the greatest ravine ever to house a baseball stadium?</p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/hd7YJ1FVZK0" frameborder="0" allowfullscreen></iframe>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </div>
+  </body>
+</html>
